@@ -89,9 +89,11 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
             <SidebarTrigger />
             <div className="flex-1 flex items-center justify-end gap-4">
               <ThemeToggle />{" "}
-              <Button size="icon" variant="outline">
-                <Github className="h-[1.2rem] w-[1.2rem]" />
-              </Button>
+              <Link href="https://github.com/bprabin811/NextJS-views-template">
+                <Button size="icon" variant="outline">
+                  <Github className="h-[1.2rem] w-[1.2rem]" />
+                </Button>
+              </Link>
             </div>
           </header>
           <main className="flex-1 overflow-auto p-6">{children}</main>
