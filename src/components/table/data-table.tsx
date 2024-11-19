@@ -73,7 +73,7 @@ export function DataTable<TData, TValue>({
     .rows.map((row) => row.original);
 
   return (
-    <div className="w-full">
+    <div className="h-full w-full p-4">
       <div className="flex items-center justify-between mb-4">
         <Input
           placeholder="Filter emails..."

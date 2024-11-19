@@ -47,6 +47,11 @@ const navItems: NavItem[] = [
     href: "/examples/calendar",
     icon: Calendar1,
   },
+  {
+    title: "Kanban View",
+    href: "/examples/kanban",
+    icon: LayoutDashboard,
+  },
 ];
 
 export function MainLayout({ children }: { children: React.ReactNode }) {

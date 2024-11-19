@@ -232,7 +232,7 @@ export default function UsersPage() {
   ];
 
   return (
-    <div className="container mx-auto py-10">
+    <div >
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogContent>
           <DialogHeader>

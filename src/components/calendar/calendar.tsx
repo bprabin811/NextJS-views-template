@@ -137,8 +137,8 @@ export default function Calendar() {
   };
 
   return (
-    <div className="h-screen w-full p-4">
-      <div className="h-[calc(100vh-3rem)] rounded-lg shadow-sm">
+    <div className="h-full w-full px-4">
+      <div className="h-[calc(85vh-3rem)] rounded-lg shadow-sm">
         <BigCalendar
           localizer={localizer}
           events={events}

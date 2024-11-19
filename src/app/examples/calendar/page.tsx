@@ -2,7 +2,7 @@ import Calendar from "@/components/calendar/calendar";
 
 const CalendarPage = () => {
   return (
-    <div className="flex items-center space-x-2">
+    <div >
       <Calendar />
     </div>
   );
