@@ -1,0 +1,46 @@
+.rbc-calendar {
+  font: inherit;
+}
+
+.rbc-header {
+  padding: 0.5rem 0.75rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  border-bottom: 1px solid hsl(var(--border)) !important;
+}
+
+.rbc-event {
+  background-color: hsl(var(--primary));
+  border-radius: 0.375rem;
+}
+
+.rbc-today {
+  background-color: hsl(var(--primary)) !important;
+  opacity: 0.4;
+  border:none !important;
+}
+
+.rbc-day-bg {
+  border-left: 1px solid hsl(var(--border)) !important;
+}
+
+.rbc-header {
+  border-left: 1px solid hsl(var(--border)) !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.rbc-month-row {
+  border-top: 1px solid hsl(var(--border)) !important;
+}
+
+.rbc-month-view {
+  border: 1px solid hsl(var(--border)) !important;
+  border-top: none !important;
+  border-left: none !important;
+}
+
+.rbc-off-range-bg {
+  background-color: hsl(var(--secondary)) !important;
+  border-left: 1px solid hsl(var(--border)) !important;
+}

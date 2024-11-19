@@ -1,10 +1,10 @@
-export interface CalendarEvent {
-    id: string;
-    title: string;
-    start: Date;
-    end: Date;
-    description?: string;
-    category?: string;
-  }
-  
-  export type EventCategory = 'Personal' | 'Work' | 'Holiday' | 'Other';
+
+export interface MyEvent{
+  id: string;
+  title: string;
+  start: Date;
+  end: Date;
+  description?: string;
+  location?: string;
+  resourceId?: string;
+}
