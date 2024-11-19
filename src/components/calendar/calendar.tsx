@@ -2,11 +2,11 @@
 import { Button } from "@/components/ui/button";
 import { dummyEvents } from "@/lib/calendar-data";
 import { MyEvent } from "@/types/calendar";
-import format from "date-fns/format";
-import getDay from "date-fns/getDay";
-import enUS from "date-fns/locale/en-US";
-import parse from "date-fns/parse";
-import startOfWeek from "date-fns/startOfWeek";
+import { format } from "date-fns";
+import { getDay } from "date-fns";
+import { enUS } from "date-fns/locale";
+import { parse } from "date-fns";
+import { startOfWeek } from "date-fns";
 import { Plus } from "lucide-react";
 import { useState } from "react";
 import {
